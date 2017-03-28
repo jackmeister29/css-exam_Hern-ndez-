@@ -4,3 +4,16 @@
 .head3 {
   font-style: italic;
 }
+.byline {
+  font-size: 9px;
+  color: #EEE8AA;
+  text-transform: uppercase;
+  margin-bottom: : 0px;
+  padding-bottom: 0px;
+}
+.headline a {
+  font-size: 25px;
+  color: #BF5700;
+  margin-top: 0px;
+  padding-top: 0px;
+}
