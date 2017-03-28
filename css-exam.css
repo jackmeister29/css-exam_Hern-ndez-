@@ -1,6 +1,9 @@
 body {
   background: #A9A9A9;
 }
+* {
+  box-sizing: border-box;
+}
 .head1 {
   padding-bottom: 0;
 }
@@ -12,6 +15,10 @@ body {
   color: #EEE8AA;
   text-transform: uppercase;
 }
+.headline1 a{
+  font-size: 30px;
+  color: #BF5700;
+}
 .headline a {
   font-size: 25px;
   color: #BF5700;
@@ -20,12 +27,26 @@ body {
   background-color: #D3D3D3;
   padding: 15px;
 }
-.head3 {
+.heads {
   border-bottom-style: solid;
 }
+ul {
+  list-style-type: none;
+}
 .container {
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
   background-color: white;
   padding: 20px;
+  overflow: auto;
+}
+@media(min-width: 600px) {
+  .left-column {
+    width: 70%;
+    float: left;
+  }
+  .right-column {
+    width: 30%;
+    float: right;
+  }
 }
