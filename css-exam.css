@@ -5,15 +5,15 @@
   font-style: italic;
 }
 .byline {
-  font-size: 9px;
+  font-size: 12px;
   color: #EEE8AA;
   text-transform: uppercase;
-  margin-bottom: : 0px;
-  padding-bottom: 0px;
 }
 .headline a {
   font-size: 25px;
   color: #BF5700;
-  margin-top: 0px;
-  padding-top: 0px;
+}
+.puli {
+  background-color: #D3D3D3;
+  padding: 15px;
 }
